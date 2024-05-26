@@ -16,6 +16,10 @@ app.get('/',(req,res)=>{
     res.status(200).send(`<span style="background-color:aqua;color:black;font-size:100px">Welcome to our first nodejs app</span>`)
 })
 
+app.get('/data',(req,res)=>{
+    res.status(200).send(`<span style="background-color:aqua;color:black;font-size:100px">Welcome to our first nodejs app</span>`)
+})
+
 
 app.listen(PORT,()=>{
     console.log(`App is listening on the port ${PORT}`);
