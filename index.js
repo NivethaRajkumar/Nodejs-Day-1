@@ -17,7 +17,7 @@ app.get('/',(req,res)=>{
 })
 
 app.get('/data',(req,res)=>{
-    res.status(200).send(`<span style="background-color:aqua;color:black;font-size:100px">Welcome to our first nodejs app</span>`)
+    res.status(200).send(`<span style="background-color:aqua;color:black;font-size:100px">Welcome</span>`)
 })
 
 
